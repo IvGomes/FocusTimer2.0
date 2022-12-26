@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+:root {
+--bg-color-minutes: #323238;
+--bg-color-time: #E1E1E6;
+
+--bg-color-hover: #02799D;
+--bg-color-desenho-timer: #FFFFFF;
+
+--bg-color-background: #FFFFFF;
+
+font-size: 62.5%;
+}
+
+body{
+
+    background-color: var(--bg-color-background);
+
+    font-family: 'Roboto', sans-serif;
+
+    font-size:7.2rem;
+    padding: 20.2rem;
+
+}
+
+button {
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 20px;
+    margin-top: 24px;
+
+    width: 100px;
+    
+  
+}
+
